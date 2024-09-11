@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Titulo -->
+    <title>Calculando JavaScript</title>
+    <!-- Autor -->
+    <meta name="author" content="Catherine Solarte" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <!-- estilo -->
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="card">
+            <div class="img-card"></div>
+              <h6>Laptop Gamer AMD</h6>
+              <p>Precio Unitario: $400.000<span class="precio-inicial"></span> </p>
+        
+              <p>Cantidad:
+                <span id="cantidad">1</span>
+                <button id="sumar"
+                >+</button>
+                <button id="restar"onclick="
+                //Esto es codigo js
+                alert('Se hizo click en botón restar');
+                cantidadProducto = cantidadProducto - 1;
+                ">-</button>
+              </p>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="total-section">
+        <p>Total a General: $<span id="valor-total">Total</span> </p>
+    </div>
+  <!-- footer 
+  <footer>
+    <p>
+      © 2024 Calculando - Catherine Solarte. Todos los derechos
+      reservados. Desafio latam
+    </p>
+  </footer> -->
+
+    <script src="./assets/js/index.js">
+    </script>
+</body>
+</html>
